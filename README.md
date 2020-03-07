@@ -1,12 +1,12 @@
-# smail
+# easyMail
 
 ## How to install
 ```
-git clone https://github.com/FKgk/simple-send-mail.git
+git clone https://github.com/FKgk/easyMail.git
 ```
 or
 ```
-pip install smail
+pip install easyMail
 ```
 
 ## Dependency
@@ -15,7 +15,7 @@ pip install smail
 
 ## Example
 ```
-from smail import Mail
+from easyMail import Mail
 
 mail = Mail("sender email", "app password")
 
