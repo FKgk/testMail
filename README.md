@@ -1,4 +1,4 @@
-# simple-send-mail
+# smail
 
 ## How to install
 ```
