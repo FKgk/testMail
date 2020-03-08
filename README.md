@@ -32,3 +32,6 @@ mail.valid("email")
 
 ## Reference
 - https://docs.python.org/3/library/smtplib.html
+
+## PYPI
+- https://pypi.org/project/testMail/1.0/

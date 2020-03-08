@@ -1,13 +1,17 @@
 import setuptools
 
+with open('README.md', 'r') as readme:
+	long_description = readme.read()
+
 setuptools.setup(
 	name="testMail",
-	version="1.0",
+	version="1.2",
 	license="MIT",
 	author="FKgk",
 	author_email="rhkd865@gmail.com",
-	description="",
-	long_description=open('README.md').read(),
+	description="testing mail using smtp",
+	long_description=long_description,
+	long_description_content_type="text/markdown",
 	url='https://github.com/FKgk/testMail',
 	packages=setuptools.find_packages(),
 	classifiers=[
