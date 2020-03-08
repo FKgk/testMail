@@ -29,11 +29,11 @@ mail.close()
 ```
 mail.valid("email")
 ```
-- return true or flase
+- return true or raise WrongEmailError
 
 ## Reference
 - [smtp](https://docs.python.org/3/library/smtplib.html)
 - [google app password](https://support.google.com/accounts/answer/185833?hl=ko)
 
 ## PYPI
-- https://pypi.org/project/testMail/1.3/
+- https://pypi.org/project/testMail/2.0/

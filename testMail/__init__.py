@@ -2,6 +2,9 @@ from email.mime.text import MIMEText
 import smtplib
 import re
 
+class WrongEmailError(Exception):
+    def __init__(self, email):
+        super().__init__('wrong email format ({} does not match id@server.domain format)'.format(email))
 
 class Mail(object):
     def __init__(self, user, passwd):
@@ -32,10 +35,12 @@ class Mail(object):
         """check email validation
         # Arguments
             addr: string you want to check
+        # raises
+            WrongEmailError: addr is not matched email
         """
         if self.pattern.match(addr):
             return True
-        return False
+        raise WrongEmailError(addr)
 
     def send(self, addrs, title, content):
         """mail send to address
