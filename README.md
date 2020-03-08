@@ -36,4 +36,4 @@ mail.valid("email")
 - [google app password](https://support.google.com/accounts/answer/185833?hl=ko)
 
 ## PYPI
-- https://pypi.org/project/testMail/2.0/
+- https://pypi.org/project/testMail/
