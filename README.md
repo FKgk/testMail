@@ -19,7 +19,8 @@ from testMail import Mail
 
 mail = Mail("sender email", "app password")
 
-mail.send("receiver(s) email", "title", "content")
+# support one string and list
+mail.send("receiver email", "title", "content")
 
 mail.close()
 ```
@@ -31,7 +32,8 @@ mail.valid("email")
 - return true or flase
 
 ## Reference
-- https://docs.python.org/3/library/smtplib.html
+- [smtp](https://docs.python.org/3/library/smtplib.html)
+- [google app password](https://support.google.com/accounts/answer/185833?hl=ko)
 
 ## PYPI
-- https://pypi.org/project/testMail/1.0/
+- https://pypi.org/project/testMail/1.3/

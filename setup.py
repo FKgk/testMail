@@ -5,7 +5,7 @@ with open('README.md', 'r') as readme:
 
 setuptools.setup(
 	name="testMail",
-	version="1.2",
+	version="1.3",
 	license="MIT",
 	author="FKgk",
 	author_email="rhkd865@gmail.com",
