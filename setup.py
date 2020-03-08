@@ -1,14 +1,14 @@
 import setuptools
 
 setuptools.setup(
-	name="easyMail",
+	name="testMail",
 	version="1.0",
 	license="MIT",
-	author="Kim Gwangho",
+	author="FKgk",
 	author_email="rhkd865@gmail.com",
 	description="",
 	long_description=open('README.md').read(),
-	url='https://github.com/FKgk/easyMail',
+	url='https://github.com/FKgk/testMail',
 	packages=setuptools.find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",

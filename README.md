@@ -1,12 +1,12 @@
-# easyMail
+# testMail
 
 ## How to install
 ```
-git clone https://github.com/FKgk/easyMail.git
+git clone https://github.com/FKgk/testMail.git
 ```
 or
 ```
-pip install easyMail
+pip install testMail
 ```
 
 ## Dependency
@@ -15,7 +15,7 @@ pip install easyMail
 
 ## Example
 ```
-from easyMail import Mail
+from testMail import Mail
 
 mail = Mail("sender email", "app password")
 
